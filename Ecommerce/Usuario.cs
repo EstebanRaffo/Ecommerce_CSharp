@@ -24,5 +24,12 @@ namespace Ecommerce
             this._password = password;
             this._mail = mail;
         }
+
+        public int Id { get { return this._id; } set { this._id = value; } }
+        public string Nombre { get { return this._nombre; } set { this._nombre = value; } }
+        public string Apellido { get {  return this._apellido; } set { this._apellido = value; } }
+        public string NombreUsuario { get { return this._nombreUsuario; } set { this._nombreUsuario = value; } }
+        public string Password { get { return this._password; } set { this._password = value; } }
+        public string Mail { get { return this._mail; } set { this._mail = value; } }
     }
 }

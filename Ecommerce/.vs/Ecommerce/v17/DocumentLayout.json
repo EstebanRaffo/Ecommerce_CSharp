@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommerce\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommerce\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommerce\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommerce\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{449EA99E-404C-4AD1-A4C7-2738128B5A54}|Ecommerce.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,26 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Usuario.cs",
-              "RelativeDocumentMoniker": "Usuario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Usuario.cs",
-              "RelativeToolTip": "Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:29:11.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Producto.cs",
               "RelativeDocumentMoniker": "Producto.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Producto.cs",
               "RelativeToolTip": "Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T19:46:10.794Z",
               "EditorCaption": ""
@@ -90,25 +77,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:29:11.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductoVendido.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\ProductoVendido.cs",
               "RelativeDocumentMoniker": "ProductoVendido.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\ProductoVendido.cs",
               "RelativeToolTip": "ProductoVendido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T19:54:50.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Venta.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Venta.cs",
               "RelativeDocumentMoniker": "Venta.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\Venta.cs",
               "RelativeToolTip": "Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T19:59:29.897Z",
               "EditorCaption": ""
