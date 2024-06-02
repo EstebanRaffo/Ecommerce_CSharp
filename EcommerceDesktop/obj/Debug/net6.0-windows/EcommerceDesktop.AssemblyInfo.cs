@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Ecommerce")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EcommerceDesktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0ee80429b4b82ca285faed6ae39aea62fbc3b3e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Ecommerce")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Ecommerce")]
+[assembly: System.Reflection.AssemblyProductAttribute("EcommerceDesktop")]
+[assembly: System.Reflection.AssemblyTitleAttribute("EcommerceDesktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 
