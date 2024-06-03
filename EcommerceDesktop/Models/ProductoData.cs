@@ -24,6 +24,8 @@ namespace EcommerceDesktop.Models
             this._idUsuario = idUsuario;
         }
 
+        public ProductoData() { }
+
         public int Id { get { return this._id; } set { this._id = value; } }
         public string Descripcion { get { return this._descripcion; } set { this._descripcion = value; } }
         public double Costo { get { return this._costo; } set { this._costo = value; } }

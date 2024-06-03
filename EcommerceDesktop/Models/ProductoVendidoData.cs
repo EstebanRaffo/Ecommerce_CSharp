@@ -20,6 +20,8 @@ namespace EcommerceDesktop.Models
             this._idVenta = idVenta;
         }
 
+        public ProductoVendidoData() { }
+
         public int Id { get { return this._id; } set { this._id = value; } }
         public int IdProducto { get { return this._idProducto; } set { this._idProducto = value; } }
         public int Stock { get { return this._stock; } set { this._stock = value; } }

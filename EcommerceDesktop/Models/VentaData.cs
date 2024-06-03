@@ -19,6 +19,8 @@ namespace EcommerceDesktop.Models
             this._idUsuario = idUsuario;
         }
 
+        public VentaData() { }
+
         public int Id { get { return this._id; } set { this._id = value; } }
         public string Comentarios { get {  return this._comentarios; } set { this._comentarios = value; } }
         public int IdUsuario { get {  return this._idUsuario; } set { this._idUsuario = value; } }
