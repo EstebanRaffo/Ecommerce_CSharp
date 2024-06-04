@@ -30,13 +30,13 @@
         {
             txtIdUsuario = new TextBox();
             label6 = new Label();
-            txtDescripcion = new TextBox();
+            txtComentarios = new TextBox();
             label2 = new Label();
             txtId = new TextBox();
             label1 = new Label();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            buttonBorrar = new Button();
+            buttonGuardar = new Button();
+            buttonVolver = new Button();
             SuspendLayout();
             // 
             // txtIdUsuario
@@ -55,12 +55,12 @@
             label6.TabIndex = 19;
             label6.Text = "Id Usuario";
             // 
-            // txtDescripcion
+            // txtComentarios
             // 
-            txtDescripcion.Location = new Point(140, 78);
-            txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(100, 23);
-            txtDescripcion.TabIndex = 18;
+            txtComentarios.Location = new Point(140, 78);
+            txtComentarios.Name = "txtComentarios";
+            txtComentarios.Size = new Size(100, 23);
+            txtComentarios.TabIndex = 18;
             // 
             // label2
             // 
@@ -88,50 +88,54 @@
             label1.TabIndex = 15;
             label1.Text = "Id";
             // 
-            // button3
+            // buttonBorrar
             // 
-            button3.Location = new Point(188, 192);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 23;
-            button3.Text = "Borrar";
-            button3.UseVisualStyleBackColor = true;
+            buttonBorrar.Location = new Point(188, 192);
+            buttonBorrar.Name = "buttonBorrar";
+            buttonBorrar.Size = new Size(75, 23);
+            buttonBorrar.TabIndex = 23;
+            buttonBorrar.Text = "Borrar";
+            buttonBorrar.UseVisualStyleBackColor = true;
+            buttonBorrar.Click += buttonBorrar_Click;
             // 
-            // button2
+            // buttonGuardar
             // 
-            button2.Location = new Point(107, 192);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 22;
-            button2.Text = "Guardar";
-            button2.TextAlign = ContentAlignment.BottomCenter;
-            button2.UseVisualStyleBackColor = true;
+            buttonGuardar.Location = new Point(107, 192);
+            buttonGuardar.Name = "buttonGuardar";
+            buttonGuardar.Size = new Size(75, 23);
+            buttonGuardar.TabIndex = 22;
+            buttonGuardar.Text = "Guardar";
+            buttonGuardar.TextAlign = ContentAlignment.BottomCenter;
+            buttonGuardar.UseVisualStyleBackColor = true;
+            buttonGuardar.Click += buttonGuardar_Click;
             // 
-            // button1
+            // buttonVolver
             // 
-            button1.Location = new Point(26, 192);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 21;
-            button1.Text = "Volver";
-            button1.UseVisualStyleBackColor = true;
+            buttonVolver.Location = new Point(26, 192);
+            buttonVolver.Name = "buttonVolver";
+            buttonVolver.Size = new Size(75, 23);
+            buttonVolver.TabIndex = 21;
+            buttonVolver.Text = "Volver";
+            buttonVolver.UseVisualStyleBackColor = true;
+            buttonVolver.Click += buttonVolver_Click;
             // 
             // VentaForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(334, 258);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(314, 258);
+            Controls.Add(buttonBorrar);
+            Controls.Add(buttonGuardar);
+            Controls.Add(buttonVolver);
             Controls.Add(txtIdUsuario);
             Controls.Add(label6);
-            Controls.Add(txtDescripcion);
+            Controls.Add(txtComentarios);
             Controls.Add(label2);
             Controls.Add(txtId);
             Controls.Add(label1);
             Name = "VentaForm";
             Text = "VentaForm";
+            Load += VentaForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -140,12 +144,12 @@
 
         private TextBox txtIdUsuario;
         private Label label6;
-        private TextBox txtDescripcion;
+        private TextBox txtComentarios;
         private Label label2;
         private TextBox txtId;
         private Label label1;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button buttonBorrar;
+        private Button buttonGuardar;
+        private Button buttonVolver;
     }
 }

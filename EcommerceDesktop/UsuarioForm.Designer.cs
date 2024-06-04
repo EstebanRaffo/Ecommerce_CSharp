@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtDescripcion = new TextBox();
+            txtNombre = new TextBox();
             label2 = new Label();
             txtId = new TextBox();
             label1 = new Label();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            textBox1 = new TextBox();
+            buttonBorrar = new Button();
+            buttonGuardar = new Button();
+            buttonVolver = new Button();
+            txtPassword = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
+            txtEmail = new TextBox();
             label4 = new Label();
-            textBox4 = new TextBox();
+            txtNombreUsuario = new TextBox();
             label6 = new Label();
-            textBox5 = new TextBox();
+            txtApellido = new TextBox();
             label7 = new Label();
             SuspendLayout();
             // 
-            // txtDescripcion
+            // txtNombre
             // 
-            txtDescripcion.Location = new Point(142, 94);
-            txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(100, 23);
-            txtDescripcion.TabIndex = 13;
+            txtNombre.Location = new Point(142, 91);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(100, 23);
+            txtNombre.TabIndex = 13;
             // 
             // label2
             // 
@@ -78,40 +78,43 @@
             label1.TabIndex = 10;
             label1.Text = "Id";
             // 
-            // button3
+            // buttonBorrar
             // 
-            button3.Location = new Point(187, 382);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 9;
-            button3.Text = "Borrar";
-            button3.UseVisualStyleBackColor = true;
+            buttonBorrar.Location = new Point(201, 382);
+            buttonBorrar.Name = "buttonBorrar";
+            buttonBorrar.Size = new Size(75, 23);
+            buttonBorrar.TabIndex = 9;
+            buttonBorrar.Text = "Borrar";
+            buttonBorrar.UseVisualStyleBackColor = true;
+            buttonBorrar.Click += buttonBorrar_Click;
             // 
-            // button2
+            // buttonGuardar
             // 
-            button2.Location = new Point(106, 382);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 8;
-            button2.Text = "Guardar";
-            button2.TextAlign = ContentAlignment.BottomCenter;
-            button2.UseVisualStyleBackColor = true;
+            buttonGuardar.Location = new Point(108, 382);
+            buttonGuardar.Name = "buttonGuardar";
+            buttonGuardar.Size = new Size(75, 23);
+            buttonGuardar.TabIndex = 8;
+            buttonGuardar.Text = "Guardar";
+            buttonGuardar.TextAlign = ContentAlignment.BottomCenter;
+            buttonGuardar.UseVisualStyleBackColor = true;
+            buttonGuardar.Click += buttonGuardar_Click;
             // 
-            // button1
+            // buttonVolver
             // 
-            button1.Location = new Point(25, 382);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 7;
-            button1.Text = "Volver";
-            button1.UseVisualStyleBackColor = true;
+            buttonVolver.Location = new Point(15, 382);
+            buttonVolver.Name = "buttonVolver";
+            buttonVolver.Size = new Size(75, 23);
+            buttonVolver.TabIndex = 7;
+            buttonVolver.Text = "Volver";
+            buttonVolver.UseVisualStyleBackColor = true;
+            buttonVolver.Click += buttonVolver_Click;
             // 
-            // textBox1
+            // txtPassword
             // 
-            textBox1.Location = new Point(142, 223);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 15;
+            txtPassword.Location = new Point(142, 223);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(100, 23);
+            txtPassword.TabIndex = 15;
             // 
             // label3
             // 
@@ -122,12 +125,12 @@
             label3.TabIndex = 14;
             label3.Text = "Contraseña";
             // 
-            // textBox2
+            // txtEmail
             // 
-            textBox2.Location = new Point(143, 265);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 17;
+            txtEmail.Location = new Point(143, 265);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(100, 23);
+            txtEmail.TabIndex = 17;
             // 
             // label4
             // 
@@ -138,12 +141,12 @@
             label4.TabIndex = 16;
             label4.Text = "Email";
             // 
-            // textBox4
+            // txtNombreUsuario
             // 
-            textBox4.Location = new Point(143, 177);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 21;
+            txtNombreUsuario.Location = new Point(143, 177);
+            txtNombreUsuario.Name = "txtNombreUsuario";
+            txtNombreUsuario.Size = new Size(100, 23);
+            txtNombreUsuario.TabIndex = 21;
             // 
             // label6
             // 
@@ -154,12 +157,12 @@
             label6.TabIndex = 20;
             label6.Text = "NombreUsuario";
             // 
-            // textBox5
+            // txtApellido
             // 
-            textBox5.Location = new Point(142, 138);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 23;
+            txtApellido.Location = new Point(142, 132);
+            txtApellido.Name = "txtApellido";
+            txtApellido.Size = new Size(100, 23);
+            txtApellido.TabIndex = 23;
             // 
             // label7
             // 
@@ -175,43 +178,44 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(290, 450);
-            Controls.Add(textBox5);
+            Controls.Add(txtApellido);
             Controls.Add(label7);
-            Controls.Add(textBox4);
+            Controls.Add(txtNombreUsuario);
             Controls.Add(label6);
-            Controls.Add(textBox2);
+            Controls.Add(txtEmail);
             Controls.Add(label4);
-            Controls.Add(textBox1);
+            Controls.Add(txtPassword);
             Controls.Add(label3);
-            Controls.Add(txtDescripcion);
+            Controls.Add(txtNombre);
             Controls.Add(label2);
             Controls.Add(txtId);
             Controls.Add(label1);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(buttonBorrar);
+            Controls.Add(buttonGuardar);
+            Controls.Add(buttonVolver);
             Name = "UsuarioForm";
             Text = "UsuarioForm";
+            Load += UsuarioForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox txtDescripcion;
+        private TextBox txtNombre;
         private Label label2;
         private TextBox txtId;
         private Label label1;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private TextBox textBox1;
+        private Button buttonBorrar;
+        private Button buttonGuardar;
+        private Button buttonVolver;
+        private TextBox txtPassword;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txtEmail;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox txtNombreUsuario;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox txtApellido;
         private Label label7;
     }
 }

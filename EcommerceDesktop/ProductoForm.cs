@@ -19,22 +19,40 @@ namespace EcommerceDesktop
             InitializeComponent();
         }
 
-        private void buttonVolver_Click(object sender, EventArgs e)
+        private void ProductoForm_Load(object sender, EventArgs e)
         {
-            limpiar();
-            this.Close();
-            Program.form1.CargarProductos();
-            Program.form1.Show();
+            int idProducto = Program.form1.idProducto;
+            if (idProducto > 0) { 
+                ProductoData producto = GestorDB.ObtenerProducto(idProducto);
+                textId.Text = producto.Id.ToString();
+                textCosto.Text = producto.Costo.ToString();
+                textDescripcion.Text = producto.Descripcion;
+                textStock.Text = producto.Stock.ToString();
+                textIdUsuario.Text = producto.IdUsuario.ToString();
+                textPrecio.Text = producto.PrecioVenta.ToString();
+            }
+            else {                 
+                limpiar();
+            }
         }
 
         private void limpiar()
         {
-            textId = null;
-            textCosto = null;
-            textDescripcion = null;
-            textStock = null;
-            textIdUsuario = null;
-            textPrecio = null;
+            textId.Text = "";
+            textCosto.Text = "";
+            textDescripcion.Text = "";
+            textStock.Text = "";
+            textIdUsuario.Text = "";
+            textPrecio.Text = "";
+        }
+
+        private void buttonVolver_Click(object sender, EventArgs e)
+        {
+            limpiar();
+            this.Close();
+            Program.form1.id = 0;
+            Program.form1.CargarProductos();
+            Program.form1.Show();
         }
 
         private void buttonGuardar_Click(object sender, EventArgs e)
@@ -57,7 +75,10 @@ namespace EcommerceDesktop
                 productoEdit.IdUsuario = int.Parse(idUsuario);
                 productoEdit.Stock = int.Parse(stock);
 
-                MessageBox.Show("Se actualizo el producto");
+                if (GestorDB.ModificarProducto(idProducto, productoEdit))
+                    MessageBox.Show("Producto actualizado");
+                else
+                    MessageBox.Show("No se pudo actualizar el producto");
             }
             else
             {
@@ -85,8 +106,8 @@ namespace EcommerceDesktop
         {
             string id = textId.Text;
 
-            if(GestorDB.EliminarProducto(Convert.ToInt32(id)))
-                MessageBox.Show("Se borro el Producto");
+            if (GestorDB.EliminarProducto(Convert.ToInt32(id)))
+                MessageBox.Show("Producto eliminado");
             else
                 MessageBox.Show("No se pudo borrar el Producto");
             limpiar();

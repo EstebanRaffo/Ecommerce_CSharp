@@ -71,7 +71,7 @@ namespace EcommerceDesktop
                 case "Ventas":
                     CargarVentas();
                     break;
-                case "Productos Vendidos":
+                case "ProductosVendidos":
                     CargarProductosVendidos();
                     break;
                 default:
@@ -86,8 +86,22 @@ namespace EcommerceDesktop
             {
                 int filaSeleccionada = (int)e.RowIndex;
                 id = int.Parse(dgvEntidad[0, filaSeleccionada].Value.ToString());
+                switch(datosCargados)
+                {
+                    case "Productos":
+                        idProducto = id;
+                        break;
+                    case "Usuarios":
+                        idUsuario = id;
+                        break;
+                    case "Ventas":
+                        idVenta = id;
+                        break;
+                    case "ProductosVendidos":
+                        idProductoVendido = id;
+                        break;
+                }
             }
-
             cargarForm();
         }
 

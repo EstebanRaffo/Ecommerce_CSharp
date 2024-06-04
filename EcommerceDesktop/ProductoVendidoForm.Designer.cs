@@ -28,53 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            txtIdUsuario = new TextBox();
+            buttonBorrar = new Button();
+            buttonGuardar = new Button();
+            buttonVolver = new Button();
+            txtIdVenta = new TextBox();
             label6 = new Label();
-            txtDescripcion = new TextBox();
+            txtStock = new TextBox();
             label2 = new Label();
             txtId = new TextBox();
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtIdProducto = new TextBox();
             label3 = new Label();
             SuspendLayout();
             // 
-            // button3
+            // buttonBorrar
             // 
-            button3.Location = new Point(199, 261);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 32;
-            button3.Text = "Borrar";
-            button3.UseVisualStyleBackColor = true;
+            buttonBorrar.Location = new Point(218, 261);
+            buttonBorrar.Name = "buttonBorrar";
+            buttonBorrar.Size = new Size(75, 23);
+            buttonBorrar.TabIndex = 32;
+            buttonBorrar.Text = "Borrar";
+            buttonBorrar.UseVisualStyleBackColor = true;
+            buttonBorrar.Click += buttonBorrar_Click;
             // 
-            // button2
+            // buttonGuardar
             // 
-            button2.Location = new Point(118, 261);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 31;
-            button2.Text = "Guardar";
-            button2.TextAlign = ContentAlignment.BottomCenter;
-            button2.UseVisualStyleBackColor = true;
+            buttonGuardar.Location = new Point(123, 261);
+            buttonGuardar.Name = "buttonGuardar";
+            buttonGuardar.Size = new Size(75, 23);
+            buttonGuardar.TabIndex = 31;
+            buttonGuardar.Text = "Guardar";
+            buttonGuardar.TextAlign = ContentAlignment.BottomCenter;
+            buttonGuardar.UseVisualStyleBackColor = true;
+            buttonGuardar.Click += buttonGuardar_Click;
             // 
-            // button1
+            // buttonVolver
             // 
-            button1.Location = new Point(37, 261);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 30;
-            button1.Text = "Volver";
-            button1.UseVisualStyleBackColor = true;
+            buttonVolver.Location = new Point(26, 261);
+            buttonVolver.Name = "buttonVolver";
+            buttonVolver.Size = new Size(75, 23);
+            buttonVolver.TabIndex = 30;
+            buttonVolver.Text = "Volver";
+            buttonVolver.UseVisualStyleBackColor = true;
+            buttonVolver.Click += buttonVolver_Click;
             // 
-            // txtIdUsuario
+            // txtIdVenta
             // 
-            txtIdUsuario.Location = new Point(151, 199);
-            txtIdUsuario.Name = "txtIdUsuario";
-            txtIdUsuario.Size = new Size(100, 23);
-            txtIdUsuario.TabIndex = 29;
+            txtIdVenta.Location = new Point(151, 199);
+            txtIdVenta.Name = "txtIdVenta";
+            txtIdVenta.Size = new Size(100, 23);
+            txtIdVenta.TabIndex = 29;
             // 
             // label6
             // 
@@ -85,12 +88,12 @@
             label6.TabIndex = 28;
             label6.Text = "Id Venta";
             // 
-            // txtDescripcion
+            // txtStock
             // 
-            txtDescripcion.Location = new Point(151, 96);
-            txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(100, 23);
-            txtDescripcion.TabIndex = 27;
+            txtStock.Location = new Point(151, 96);
+            txtStock.Name = "txtStock";
+            txtStock.Size = new Size(100, 23);
+            txtStock.TabIndex = 27;
             // 
             // label2
             // 
@@ -118,12 +121,12 @@
             label1.TabIndex = 24;
             label1.Text = "Id";
             // 
-            // textBox1
+            // txtIdProducto
             // 
-            textBox1.Location = new Point(150, 144);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 34;
+            txtIdProducto.Location = new Point(150, 144);
+            txtIdProducto.Name = "txtIdProducto";
+            txtIdProducto.Size = new Size(100, 23);
+            txtIdProducto.TabIndex = 34;
             // 
             // label3
             // 
@@ -138,36 +141,37 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(315, 301);
-            Controls.Add(textBox1);
+            ClientSize = new Size(315, 311);
+            Controls.Add(txtIdProducto);
             Controls.Add(label3);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(txtIdUsuario);
+            Controls.Add(buttonBorrar);
+            Controls.Add(buttonGuardar);
+            Controls.Add(buttonVolver);
+            Controls.Add(txtIdVenta);
             Controls.Add(label6);
-            Controls.Add(txtDescripcion);
+            Controls.Add(txtStock);
             Controls.Add(label2);
             Controls.Add(txtId);
             Controls.Add(label1);
             Name = "ProductoVendidoForm";
             Text = "ProductoVendidoForm";
+            Load += ProductoVendidoForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private TextBox txtIdUsuario;
+        private Button buttonBorrar;
+        private Button buttonGuardar;
+        private Button buttonVolver;
+        private TextBox txtIdVenta;
         private Label label6;
-        private TextBox txtDescripcion;
+        private TextBox txtStock;
         private Label label2;
         private TextBox txtId;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtIdProducto;
         private Label label3;
     }
 }

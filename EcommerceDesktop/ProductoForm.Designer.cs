@@ -194,6 +194,7 @@
             Controls.Add(label1);
             Name = "ProductoForm";
             Text = "ProductoForm";
+            Load += ProductoForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
