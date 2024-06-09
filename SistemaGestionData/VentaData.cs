@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecommerce
+namespace EcommerceDesktop.Models
 {
-    public class Venta
+    public class VentaData
     {
         private int _id;
         private string _comentarios;
         private int _idUsuario;
 
-        public Venta(int id, string comentarios, int idUsuario)
+        public VentaData(int id, string comentarios, int idUsuario)
         {
             this._id = id;
             this._comentarios = comentarios;
             this._idUsuario = idUsuario;
         }
 
-        public Venta() { }
+        public VentaData() { }
 
         public int Id { get { return this._id; } set { this._id = value; } }
         public string Comentarios { get {  return this._comentarios; } set { this._comentarios = value; } }

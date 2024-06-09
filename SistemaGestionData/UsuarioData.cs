@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecommerce
+namespace EcommerceDesktop.Models
 {
-    public class Usuario
+    public class UsuarioData
     {
         private int _id;
         private string _nombre;
@@ -15,7 +15,7 @@ namespace Ecommerce
         private string _password;
         private string _mail;
 
-        public Usuario(int id, string nombre, string apellido, string nombreUsuario, string password, string mail)
+        public UsuarioData(int id, string nombre, string apellido, string nombreUsuario, string password, string mail)
         {
             this._id = id;
             this._nombre = nombre;
@@ -25,7 +25,7 @@ namespace Ecommerce
             this._mail = mail;
         }
 
-        public Usuario() { }
+        public UsuarioData() { }
 
         public int Id { get { return this._id; } set { this._id = value; } }
         public string Nombre { get { return this._nombre; } set { this._nombre = value; } }

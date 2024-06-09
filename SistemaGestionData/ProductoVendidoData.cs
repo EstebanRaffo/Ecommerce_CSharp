@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecommerce
+namespace EcommerceDesktop.Models
 {
-    public class ProductoVendido
+    public class ProductoVendidoData
     {
         private int _id;
         private int _idProducto;
         private int _stock;
         private int _idVenta;
 
-        public ProductoVendido(int id, int idProducto, int stock, int idVenta) {
+        public ProductoVendidoData(int id, int idProducto, int stock, int idVenta) {
             this._id = id;
             this._idProducto = idProducto;
             this._stock = stock;
             this._idVenta = idVenta;
         }
 
-        public ProductoVendido() { }
+        public ProductoVendidoData() { }
 
         public int Id { get { return this._id; } set { this._id = value; } }
         public int IdProducto { get { return this._idProducto; } set { this._idProducto = value; } }
