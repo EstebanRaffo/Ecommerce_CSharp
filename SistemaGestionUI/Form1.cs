@@ -27,16 +27,15 @@ namespace SistemaGestionUI
             comboBox1.SelectedIndex = 0;
             idProducto = 0;
             dgvEntidad.AutoGenerateColumns = true;
-            dgvEntidad.DataSource = ProductoBussiness.GetProductos();
+            dgvEntidad.DataSource = ProductoBussiness.ObtenerProductos();
             datosCargados = "Productos";
         }
-        /*
         public void CargarUsuarios()
         {
             comboBox1.SelectedIndex = 1;
             idUsuario = 0;
             dgvEntidad.AutoGenerateColumns = true;
-            dgvEntidad.DataSource = GestorDB.ListarUsuarios();
+            dgvEntidad.DataSource = UsuarioBussiness.ListarUsuarios();
             datosCargados = "Usuarios";
         }
 
@@ -45,7 +44,7 @@ namespace SistemaGestionUI
             comboBox1.SelectedIndex = 2;
             idVenta = 0;
             dgvEntidad.AutoGenerateColumns = true;
-            dgvEntidad.DataSource = GestorDB.ListarVentas();
+            dgvEntidad.DataSource = VentaBussiness.ObtenerVentas();
             datosCargados = "Ventas";
         }
 
@@ -54,10 +53,10 @@ namespace SistemaGestionUI
             comboBox1.SelectedIndex = 3;
             idProductoVendido = 0;
             dgvEntidad.AutoGenerateColumns = true;
-            dgvEntidad.DataSource = GestorDB.ListarProductosVendidos();
+            dgvEntidad.DataSource = ProductoVendidoBussiness.ObtenerProductosVendidos();
             datosCargados = "ProductosVendidos";
         }
-        */
+        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedValue = comboBox1.SelectedItem.ToString();
@@ -66,7 +65,7 @@ namespace SistemaGestionUI
                 case "Productos":
                     CargarProductos();
                     break;
-                /*case "Usuarios":
+                case "Usuarios":
                     CargarUsuarios();
                     break;
                 case "Ventas":
@@ -74,7 +73,7 @@ namespace SistemaGestionUI
                     break;
                 case "ProductosVendidos":
                     CargarProductosVendidos();
-                    break;*/
+                    break;
                 default:
                     CargarProductos();
                     break;
@@ -120,7 +119,7 @@ namespace SistemaGestionUI
                     Program.form1.Hide();
                     productoForm.Show();
                     break;
-                /* case "Usuarios":
+                case "Usuarios":
                     UsuarioForm usuarioForm = new UsuarioForm();
                     Program.form1.Hide();
                     usuarioForm.Show();
@@ -134,7 +133,7 @@ namespace SistemaGestionUI
                     ProductoVendidoForm productoVendidoForm = new ProductoVendidoForm();
                     Program.form1.Hide();
                     productoVendidoForm.Show();
-                    break;*/
+                    break;
             }
         }
     }

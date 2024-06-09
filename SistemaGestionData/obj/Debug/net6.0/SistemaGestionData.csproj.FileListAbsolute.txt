@@ -1,0 +1,16 @@
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.deps.json
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.sourcelink.json
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaG.92EE484C.Up2Date
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll

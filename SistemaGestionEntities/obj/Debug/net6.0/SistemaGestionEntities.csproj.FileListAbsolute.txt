@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.deps.json
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.sourcelink.json
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Usuario\Documents\Coderhouse\C#\Proyecto\Ecommerce_CSharp\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll

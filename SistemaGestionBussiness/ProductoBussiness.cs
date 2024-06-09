@@ -10,11 +10,11 @@ namespace SistemaGestionBussiness
 {
     public class ProductoBussiness
     {
-        public static Producto GetProductoById(int id)
+        public static Producto ObtenerProductoPorId(int id)
         {
             return ProductoData.GetProducto(id);
         }
-        public static List<Producto> GetProductos()
+        public static List<Producto> ObtenerProductos()
         {
             return ProductoData.GetProductos();
         }

@@ -84,7 +84,7 @@ namespace EcommerceDesktop
                 newProductoVendido.IdProducto = int.Parse(idProducto);
                 newProductoVendido.IdVenta = int.Parse(idVenta);
 
-                if (GestorDB.ModificarProductoVendido(idProductoVendido, newProductoVendido))
+                if (GestorDB.CrearProductoVendido(newProductoVendido))
                 {
                     MessageBox.Show("Producto vendido agregado correctamente");
                 }

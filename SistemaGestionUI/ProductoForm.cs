@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EcommerceDesktop.Database;
-using EcommerceDesktop.Models;
+using SistemaGestionBussiness;
+using SistemaGestionEntities;
 
-namespace EcommerceDesktop
+namespace SistemaGestionUI
 {
     public partial class ProductoForm : Form
     {
@@ -23,7 +23,7 @@ namespace EcommerceDesktop
         {
             int idProducto = Program.form1.idProducto;
             if (idProducto > 0) { 
-                ProductoData producto = GestorDB.ObtenerProducto(idProducto);
+                Producto producto = ProductoBussiness.ObtenerProductoPorId(idProducto);
                 textId.Text = producto.Id.ToString();
                 textCosto.Text = producto.Costo.ToString();
                 textDescripcion.Text = producto.Descripcion;
@@ -67,7 +67,7 @@ namespace EcommerceDesktop
 
             if (idProducto > 0)
             {
-                ProductoData productoEdit = GestorDB.ObtenerProducto(idProducto);
+                Producto productoEdit = ProductoBussiness.ObtenerProductoPorId(idProducto);
 
                 productoEdit.PrecioVenta = double.Parse(precioVenta);
                 productoEdit.Descripcion = descripcion;
@@ -75,14 +75,14 @@ namespace EcommerceDesktop
                 productoEdit.IdUsuario = int.Parse(idUsuario);
                 productoEdit.Stock = int.Parse(stock);
 
-                if (GestorDB.ModificarProducto(idProducto, productoEdit))
+                if (ProductoBussiness.ModificarProducto(idProducto, productoEdit))
                     MessageBox.Show("Producto actualizado");
                 else
                     MessageBox.Show("No se pudo actualizar el producto");
             }
             else
             {
-                ProductoData newProducto = new ProductoData();
+                Producto newProducto = new Producto();
 
                 newProducto.PrecioVenta = double.Parse(precioVenta);
                 newProducto.Descripcion = descripcion;
@@ -90,7 +90,7 @@ namespace EcommerceDesktop
                 newProducto.Stock = int.Parse(stock);
                 newProducto.IdUsuario = int.Parse(idUsuario);
 
-                if (GestorDB.CrearProducto(newProducto))
+                if (ProductoBussiness.CrearProducto(newProducto))
                     MessageBox.Show("Producto creado");
                 else
                     MessageBox.Show("No se pudo crear el producto");
@@ -106,7 +106,7 @@ namespace EcommerceDesktop
         {
             string id = textId.Text;
 
-            if (GestorDB.EliminarProducto(Convert.ToInt32(id)))
+            if (ProductoBussiness.EliminarProducto(Convert.ToInt32(id)))
                 MessageBox.Show("Producto eliminado");
             else
                 MessageBox.Show("No se pudo borrar el Producto");

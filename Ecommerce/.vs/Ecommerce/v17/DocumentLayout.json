@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\productovendidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\database\\gestordb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A38E907-C8B1-4462-8D68-6BAE97975DBB}|..\\EcommerceDesktop\\EcommerceDesktop.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\ecommercedesktop\\database\\gestordb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +25,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoVendidoForm.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\ProductoVendidoForm.cs",
+              "RelativeDocumentMoniker": "..\\EcommerceDesktop\\ProductoVendidoForm.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\ProductoVendidoForm.cs",
+              "RelativeToolTip": "..\\EcommerceDesktop\\ProductoVendidoForm.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAFYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:33:36.961Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -45,20 +58,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Program.cs",
-              "RelativeDocumentMoniker": "..\\EcommerceDesktop\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Program.cs",
-              "RelativeToolTip": "..\\EcommerceDesktop\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\EcommerceDesktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\EcommerceDesktop\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T00:17:16.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T00:09:25.462Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Form1.cs",
               "RelativeDocumentMoniker": "..\\EcommerceDesktop\\Form1.cs",
@@ -71,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductoForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\ProductoForm.cs",
               "RelativeDocumentMoniker": "..\\EcommerceDesktop\\ProductoForm.cs",
@@ -83,28 +95,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GestorDB.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Database\\GestorDB.cs",
               "RelativeDocumentMoniker": "..\\EcommerceDesktop\\Database\\GestorDB.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Database\\GestorDB.cs",
               "RelativeToolTip": "..\\EcommerceDesktop\\Database\\GestorDB.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBIBAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACECAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T05:36:19.038Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\EcommerceDesktop\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\EcommerceDesktop\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\EcommerceDesktop\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T00:09:25.462Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

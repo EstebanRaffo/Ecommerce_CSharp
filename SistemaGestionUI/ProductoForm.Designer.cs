@@ -1,4 +1,4 @@
-﻿namespace EcommerceDesktop
+﻿namespace SistemaGestionUI
 {
     partial class ProductoForm
     {
