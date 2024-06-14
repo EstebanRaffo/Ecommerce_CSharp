@@ -35,7 +35,7 @@ namespace EcommerceWebApi.Controllers
         }
 
         [HttpDelete (Name = "EliminarProducto")]
-        public string Delete(int id)
+        public string Delete([FromBody] int id)
         {
             ProductoVendidoBussiness.EliminarProductoVendido(id);
             if (ProductoBussiness.EliminarProducto(id))
@@ -44,7 +44,7 @@ namespace EcommerceWebApi.Controllers
             }
             else
             {
-                return "Error al eliminar producto";
+                return "No se pudo eliminar producto";
             }
         }
     }

@@ -13,5 +13,11 @@ namespace EcommerceWebApi.Controllers
         {
             return ProductoVendidoBussiness.ObtenerProductosVendidos();
         }
+
+        [HttpPost(Name = "CrearVenta")]
+        public bool Post([FromBody] ProductoVendido productoVendido)
+        {
+            return ProductoVendidoBussiness.CrearProductoVendido(productoVendido);
+        }
     }
 }

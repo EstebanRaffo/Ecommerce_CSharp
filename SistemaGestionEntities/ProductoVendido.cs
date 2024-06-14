@@ -20,6 +20,12 @@ namespace SistemaGestionEntities
             this._idVenta = idVenta;
         }
 
+        public ProductoVendido(int idProducto, int stock, int idVenta) {
+            this._idProducto = idProducto;
+            this._stock = stock;
+            this._idVenta = idVenta;
+        }
+
         public ProductoVendido() { }
 
         public int Id { get { return this._id; } set { this._id = value; } }

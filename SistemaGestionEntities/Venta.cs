@@ -19,6 +19,11 @@ namespace SistemaGestionEntities
             this._idUsuario = idUsuario;
         }
 
+        public Venta(string comentarios, int idUsuario)
+        {
+            this._comentarios = comentarios;
+            this._idUsuario = idUsuario;
+        }
         public Venta() { }
 
         public int Id { get { return this._id; } set { this._id = value; } }

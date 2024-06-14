@@ -15,9 +15,25 @@ namespace EcommerceWebApi.Controllers
         }
 
         [HttpPost (Name = "CargarVenta")]
-        public bool Post([FromBody] Venta venta)
+        public bool Post([FromBody] List<Producto> productos, [FromBody] int usuario_id)
         {
-            return VentaBussiness.CrearVenta(venta);
+            Venta nueva_venta = new Venta("venta", usuario_id);
+            if (VentaBussiness.CrearVenta(nueva_venta))
+            {
+                List<Venta> ventas = VentaBussiness.ObtenerVentas();
+                Venta ultima = ventas[ventas.Count - 1];
+                int venta_id = ultima.Id;
+                foreach (Producto producto in productos)
+                {
+                    ProductoVendido producto_vendido = new ProductoVendido(producto.Id, producto.Stock, venta_id);
+                    ProductoVendidoBussiness.CrearProductoVendido(producto_vendido);
+                    Producto productoToEdit = ProductoBussiness.ObtenerProductoPorId(producto.Id);
+                    productoToEdit.Stock -= producto.Stock;
+                    ProductoBussiness.ModificarProducto(producto.Id, productoToEdit);
+                }
+                return true;
+            }
+            return false;
         }
     }
 }
