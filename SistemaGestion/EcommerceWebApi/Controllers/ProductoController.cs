@@ -37,7 +37,15 @@ namespace EcommerceWebApi.Controllers
         [HttpDelete (Name = "EliminarProducto")]
         public string Delete([FromBody] int id)
         {
-            ProductoVendidoBussiness.EliminarProductoVendido(id);
+            List<ProductoVendido> producto_vendidos = ProductoVendidoBussiness.ObtenerProductosVendidos();
+            List<ProductoVendido> items_vendidos = producto_vendidos.FindAll(x => x.IdProducto == id);
+            if(items_vendidos.Count > 0)
+            {
+                foreach (ProductoVendido item in items_vendidos)
+                {
+                    ProductoVendidoBussiness.EliminarProductoVendido(item.Id);
+                }
+            }
             if (ProductoBussiness.EliminarProducto(id))
             {
                 return "Producto eliminado";
