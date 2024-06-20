@@ -43,5 +43,32 @@ namespace EcommerceWebApi.Controllers
             }
             return false;
         }
+
+        [HttpDelete (Name = "EliminarVenta")]
+        public string Delete([FromBody] int id)
+        {
+            List<ProductoVendido> producto_vendidos = ProductoVendidoBussiness.ObtenerProductosVendidos();
+            List<ProductoVendido> items_de_la_venta = producto_vendidos.FindAll(x => x.IdVenta == id);
+            if(items_de_la_venta.Count > 0)
+            {
+                foreach (ProductoVendido item in items_de_la_venta)
+                {
+                    if (ProductoVendidoBussiness.EliminarProductoVendido(item.Id))
+                    {
+                        Producto productoToEdit = ProductoBussiness.ObtenerProductoPorId(item.IdProducto);
+                        productoToEdit.Stock += item.Stock;
+                        ProductoBussiness.ModificarProducto(item.IdProducto, productoToEdit);
+                    }
+                }
+            }
+            if (VentaBussiness.EliminarVenta(id))
+            {
+                return "Venta eliminada";
+            }
+            else
+            {
+                return "No se pudo eliminar la venta";
+            }
+        }
     }
 }

@@ -52,7 +52,7 @@ namespace EcommerceWebApi.Controllers
             }
             else
             {
-                return "No se pudo eliminar producto";
+                return "No se pudo eliminar el producto";
             }
         }
     }
