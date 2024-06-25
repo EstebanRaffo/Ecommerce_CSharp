@@ -33,5 +33,10 @@ namespace SistemaGestionEntities
         public string NombreUsuario { get { return this._nombreUsuario; } set { this._nombreUsuario = value; } }
         public string Password { get { return this._password; } set { this._password = value; } }
         public string Email { get { return this._mail; } set { this._mail = value; } }
+
+        public override string ToString()
+        {
+            return this._nombre + " " + this._apellido;
+        }
     }
 }

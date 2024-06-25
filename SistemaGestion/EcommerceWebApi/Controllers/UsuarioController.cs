@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaGestionBussiness;
+using SistemaGestionData;
 using SistemaGestionEntities;
+using System.Net;
 
 namespace EcommerceWebApi.Controllers
 {
@@ -82,8 +84,27 @@ namespace EcommerceWebApi.Controllers
             }
             else
             {
-                return "No se pudo eliminar usuario";
+                return "No se pudo eliminar el usuario";
             }
+        }
+
+        [HttpGet("{usuario}/{password}")]
+        public ActionResult<Usuario> ObtenerUsuarioPorUsuarioYPassword(string usuario, string password)
+        {
+            if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(password))
+            {
+                return base.BadRequest(new { message = "El usuario o el password no puede ser una cadena de caracteres vacia o con espacios", status = HttpStatusCode.BadRequest });
+            }
+
+            try
+            {
+                return UsuarioBussiness.ObtenerUsuarioPorUsuarioYPassword(usuario, password);
+            }
+            catch
+            {
+                return base.Unauthorized(new { message = "No se pudo obtener un usuario en base a los datos proporcionados", status = HttpStatusCode.Unauthorized });
+            }
+
         }
     }
 }

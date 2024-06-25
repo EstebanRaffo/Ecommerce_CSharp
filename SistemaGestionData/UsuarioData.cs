@@ -165,5 +165,44 @@ namespace SistemaGestionData
                 throw;
             }
         }
+        public static Usuario ObtenerUsuarioPorUsuarioYPassword(string usuario, string password)
+        {
+            string connectionString = @"Server=localhost\MSSQLSERVERC#;Database=SistemaGestion_c9;Trusted_Connection=True;";
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM Usuario WHERE NombreUsuario = @usuario AND Contraseña = @password";
+
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("usuario", usuario);
+                    command.Parameters.AddWithValue("password", password);
+                    connection.Open();
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        int userId = Convert.ToInt32(reader[0]);
+                        string nombre = reader.GetString(1);
+                        string apellido = reader.GetString(2);
+                        string nombreUsuario = reader.GetString(3);
+                        string pass = reader.GetString(4);
+                        string email = reader.GetString(5);
+
+                        Usuario user = new Usuario(userId, nombre, apellido, nombreUsuario, pass, email);
+
+                        return user;
+                    }
+                    throw new Exception("Usuario o contraseña incorrectos");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
     }
 }

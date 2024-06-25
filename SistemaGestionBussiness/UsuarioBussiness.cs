@@ -30,5 +30,10 @@ namespace SistemaGestionBussiness
         {
             return UsuarioData.EliminarUsuario(id);
         }
+
+        public static Usuario ObtenerUsuarioPorUsuarioYPassword(string usuario, string password)
+        {
+            return UsuarioData.ObtenerUsuarioPorUsuarioYPassword(usuario, password);
+        }
     }
 }
