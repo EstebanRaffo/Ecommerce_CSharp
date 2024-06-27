@@ -16,12 +16,50 @@ namespace EcommerceWebApi.Controllers
             return UsuarioBussiness.ListarUsuarios();
         }
 
+        [HttpGet("{nombreDeUsuario}")]
+        public ActionResult<Usuario> ObtenerUsuarioPorNombreDeUsuario(string nombreDeUsuario)
+        {
+            if (string.IsNullOrWhiteSpace(nombreDeUsuario))
+            {
+                return base.BadRequest(new { message = "El nombre de usuario no puede ser una cadena de caracteres vacia o con espacios" });
+            }
+            try
+            {
+                Usuario usuario = UsuarioBussiness.ObtenerUsuarioPorNombreDeUsuario(nombreDeUsuario);
+                return usuario;
+            }
+            catch
+            {
+                return base.Conflict(new { message = "No se pudo obtener un usuario en base a los datos proporcionados", status = HttpStatusCode.Conflict });
+            }
+        }
+
+        [HttpGet("{usuario}/{password}")]
+        public ActionResult<Usuario> ObtenerUsuarioPorUsuarioYPassword(string usuario, string password)
+        {
+            if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(password))
+            {
+                return base.BadRequest(new { message = "El usuario o el password no puede ser una cadena de caracteres vacia o con espacios", status = HttpStatusCode.BadRequest });
+            }
+
+            try
+            {
+                return UsuarioBussiness.ObtenerUsuarioPorUsuarioYPassword(usuario, password);
+            }
+            catch
+            {
+                return base.Unauthorized(new { message = "No se pudo obtener un usuario en base a los datos proporcionados", status = HttpStatusCode.Unauthorized });
+            }
+        }
+
+        /*
         [HttpGet ("{id}", Name = "GetUsuario")]
         public IActionResult ObtenerUsuarioPorId(int id)
         {
             Usuario usuario = UsuarioBussiness.ObtenerUsuarioPorId(id);
             return Ok(usuario);
         }
+        */
 
         [HttpGet("{id}/nombre", Name = "GetNombreUsuario")]
         public IActionResult ObtenerNombreUsuarioPorId(int id) 
@@ -86,25 +124,6 @@ namespace EcommerceWebApi.Controllers
             {
                 return "No se pudo eliminar el usuario";
             }
-        }
-
-        [HttpGet("{usuario}/{password}")]
-        public ActionResult<Usuario> ObtenerUsuarioPorUsuarioYPassword(string usuario, string password)
-        {
-            if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(password))
-            {
-                return base.BadRequest(new { message = "El usuario o el password no puede ser una cadena de caracteres vacia o con espacios", status = HttpStatusCode.BadRequest });
-            }
-
-            try
-            {
-                return UsuarioBussiness.ObtenerUsuarioPorUsuarioYPassword(usuario, password);
-            }
-            catch
-            {
-                return base.Unauthorized(new { message = "No se pudo obtener un usuario en base a los datos proporcionados", status = HttpStatusCode.Unauthorized });
-            }
-
         }
     }
 }

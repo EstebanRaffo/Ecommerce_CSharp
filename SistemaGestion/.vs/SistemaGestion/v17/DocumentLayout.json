@@ -7,37 +7,18 @@
       "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F808684F-37DD-4F28-8B22-E56D91BD3B2F}|..\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionbussiness\\productobussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19FBDB1-B943-458C-BC5B-C22E2EA97AAD}|..\\SistemaGestionData\\SistemaGestionData.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestiondata\\productodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\nombrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\nombrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19FBDB1-B943-458C-BC5B-C22E2EA97AAD}|..\\SistemaGestionData\\SistemaGestionData.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestiondata\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CD04B9-05AF-4112-81FB-EF8E47E29B6E}|..\\SistemaGestionEntities\\SistemaGestionEntities.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionentities\\provider\\abstractprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CD04B9-05AF-4112-81FB-EF8E47E29B6E}|..\\SistemaGestionEntities\\SistemaGestionEntities.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionentities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CD04B9-05AF-4112-81FB-EF8E47E29B6E}|..\\SistemaGestionEntities\\SistemaGestionEntities.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionentities\\provider\\usuarioprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F808684F-37DD-4F28-8B22-E56D91BD3B2F}|..\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionbussiness\\usuariobussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{018D0734-9E94-40A7-90F6-ADF39E10A57A}|..\\SistemaGestionUI\\SistemaGestionUI.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionui\\usuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{018D0734-9E94-40A7-90F6-ADF39E10A57A}|..\\SistemaGestionUI\\SistemaGestionUI.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionui\\usuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,7 +48,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ProductoData.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\ProductoData.cs",
+              "RelativeDocumentMoniker": "..\\SistemaGestionData\\ProductoData.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\ProductoData.cs",
+              "RelativeToolTip": "..\\SistemaGestionData\\ProductoData.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwLQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T23:25:47.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoBussiness.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\ProductoBussiness.cs",
+              "RelativeDocumentMoniker": "..\\SistemaGestionBussiness\\ProductoBussiness.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\ProductoBussiness.cs",
+              "RelativeToolTip": "..\\SistemaGestionBussiness\\ProductoBussiness.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T23:24:19.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NombreController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\NombreController.cs",
               "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\NombreController.cs",
@@ -75,60 +82,7 @@
               "RelativeToolTip": "EcommerceWebApi\\Controllers\\NombreController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:44:34.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioBussiness.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\UsuarioBussiness.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionBussiness\\UsuarioBussiness.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\UsuarioBussiness.cs",
-              "RelativeToolTip": "..\\SistemaGestionBussiness\\UsuarioBussiness.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwCMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:10:49.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionEntities\\Provider\\UsuarioProvider.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionEntities\\Provider\\UsuarioProvider.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionEntities\\Provider\\UsuarioProvider.cs",
-              "RelativeToolTip": "..\\SistemaGestionEntities\\Provider\\UsuarioProvider.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:41:15.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionEntities\\Usuario.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionEntities\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionEntities\\Usuario.cs",
-              "RelativeToolTip": "..\\SistemaGestionEntities\\Usuario.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:33:06.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioData.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\UsuarioData.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionData\\UsuarioData.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\UsuarioData.cs",
-              "RelativeToolTip": "..\\SistemaGestionData\\UsuarioData.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAIwLgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:25:48.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T22:44:34.478Z"
             },
             {
               "$type": "Document",
@@ -138,71 +92,23 @@
               "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "EcommerceWebApi\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAmwAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T23:04:57.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbstractProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionEntities\\Provider\\AbstractProvider.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionEntities\\Provider\\AbstractProvider.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionEntities\\Provider\\AbstractProvider.cs",
-              "RelativeToolTip": "..\\SistemaGestionEntities\\Provider\\AbstractProvider.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "EcommerceWebApi\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAE8AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:35:28.626Z",
+              "WhenOpened": "2024-06-26T23:20:35.327Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "EcommerceWebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Program.cs",
-              "RelativeToolTip": "EcommerceWebApi\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:55:40.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EcommerceWebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EcommerceWebApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-25T00:03:06.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsuarioForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionUI\\UsuarioForm.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionUI\\UsuarioForm.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionUI\\UsuarioForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\SistemaGestionUI\\UsuarioForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:01:15.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsuarioForm.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionUI\\UsuarioForm.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionUI\\UsuarioForm.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionUI\\UsuarioForm.cs",
-              "RelativeToolTip": "..\\SistemaGestionUI\\UsuarioForm.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:03:51.648Z"
             }
           ]
         }

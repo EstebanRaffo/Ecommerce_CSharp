@@ -35,5 +35,9 @@ namespace SistemaGestionBussiness
         {
             return UsuarioData.ObtenerUsuarioPorUsuarioYPassword(usuario, password);
         }
+        public static Usuario ObtenerUsuarioPorNombreDeUsuario(string usuario)
+        {
+            return UsuarioData.ObtenerUsuarioPorNombreDeUsuario(usuario);
+        }
     }
 }

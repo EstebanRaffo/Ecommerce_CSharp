@@ -158,5 +158,43 @@ namespace SistemaGestionData
                 throw;
             }
         }
+        public static List<Producto> GetProductosPorIdUsuario(int idUsuario)
+        {
+            List<Producto> productos = new List<Producto>();
+            string connectionString = @"Server=localhost\MSSQLSERVERC#;Database=SistemaGestion_c9;Trusted_Connection=True;";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM Producto WHERE IdUsuario = @idUsuario";
+                    conn.Open();
+                    using (SqlCommand command = new SqlCommand(query, conn))
+                    {
+                        command.Parameters.AddWithValue("idUsuario", idUsuario);
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                Producto producto = new Producto();
+                                producto.Id = Convert.ToInt32(reader["Id"]);
+                                producto.Descripcion = reader["Descripciones"].ToString();
+                                producto.Costo = Convert.ToDouble(reader["Costo"]);
+                                producto.PrecioVenta = Convert.ToDouble(reader["PrecioVenta"]);
+                                producto.Stock = Convert.ToInt32(reader["Stock"]);
+                                producto.IdUsuario = Convert.ToInt32(reader["IdUsuario"]);
+                                productos.Add(producto);
+                            }
+                        }
+                    }
+                }
+                return productos;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
     }
 }

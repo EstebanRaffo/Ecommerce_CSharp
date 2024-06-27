@@ -30,5 +30,9 @@ namespace SistemaGestionBussiness
         {
             return ProductoData.EliminarProducto(id);
         }
+        public static List<Producto> ObtenerProductosPorIdDeUsuario(int idUsuario)
+        {
+            return ProductoData.GetProductosPorIdUsuario(idUsuario);
+        }
     }
 }
