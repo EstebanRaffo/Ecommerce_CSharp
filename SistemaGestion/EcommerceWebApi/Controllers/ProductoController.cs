@@ -16,13 +16,6 @@ namespace EcommerceWebApi.Controllers
             return ProductoBussiness.ObtenerProductos();
         }
 
-        [HttpGet("{id}", Name = "GetProducto")]
-        public IActionResult ObtenerProductoPorId(int id)
-        {
-            Producto producto = ProductoBussiness.ObtenerProductoPorId(id);
-            return Ok(producto);
-        }
-        
         [HttpPost (Name = "CrearProducto")]
         public bool Post([FromBody] Producto producto)
         {
@@ -67,7 +60,6 @@ namespace EcommerceWebApi.Controllers
             }
             try
             {
-
                 return ProductoBussiness.ObtenerProductosPorIdDeUsuario(idUsuario);
             }
             catch (Exception ex)
