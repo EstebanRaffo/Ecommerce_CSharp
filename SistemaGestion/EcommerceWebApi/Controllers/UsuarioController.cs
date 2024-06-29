@@ -52,15 +52,6 @@ namespace EcommerceWebApi.Controllers
             }
         }
 
-        /*
-        [HttpGet ("{id}", Name = "GetUsuario")]
-        public IActionResult ObtenerUsuarioPorId(int id)
-        {
-            Usuario usuario = UsuarioBussiness.ObtenerUsuarioPorId(id);
-            return Ok(usuario);
-        }
-        */
-
         [HttpGet("{id}/nombre", Name = "GetNombreUsuario")]
         public IActionResult ObtenerNombreUsuarioPorId(int id) 
         {
