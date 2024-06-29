@@ -147,5 +147,40 @@ namespace SistemaGestionData
                 throw;
             }
         }
+        public static List<Venta> ObtenerVentasPorIdUsuario(int idUsuario)
+        {
+            List<Venta> ventas = new List<Venta>();
+            string connectionString = @"Server=localhost\MSSQLSERVERC#;Database=SistemaGestion_c9;Trusted_Connection=True;";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT * FROM Venta WHERE IdUsuario = @idUsuario";
+                    conn.Open();
+                    using (SqlCommand command = new SqlCommand(query, conn))
+                    {
+                        command.Parameters.AddWithValue("idUsuario", idUsuario);
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                Venta venta = new Venta();
+                                venta.Id = Convert.ToInt32(reader["Id"]);
+                                venta.Comentarios = reader["Comentarios"].ToString();
+                                venta.IdUsuario = Convert.ToInt32(reader["IdUsuario"]);
+                                ventas.Add(venta);
+                            }
+                        }
+                    }
+                }
+                return ventas;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
     }
 }
