@@ -30,5 +30,10 @@ namespace SistemaGestionBussiness
         { 
             return ProductoVendidoData.EliminarProductoVendido(id);
         }
+
+        public static List<ProductoVendido> ObtenerProductosVendidosPorIdUsuario(int idUsuario)
+        {
+            return ProductoVendidoData.ObtenerProductosVendidosPorIdUsuario(idUsuario);
+        }
     }
 }

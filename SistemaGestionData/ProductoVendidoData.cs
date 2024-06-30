@@ -150,5 +150,42 @@ namespace SistemaGestionData
                 throw;
             }
         }
+
+        public static List<ProductoVendido> ObtenerProductosVendidosPorIdUsuario(int idUsuario)
+        {
+            List<ProductoVendido> productosVendidos = new List<ProductoVendido>();
+            string connectionString = @"Server=localhost\MSSQLSERVERC#;Database=SistemaGestion_c9;Trusted_Connection=True;";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT pv.* FROM ProductoVendido pv INNER JOIN Venta v ON pv.IdVenta = v.Id WHERE v.IdUsuario = @idUsuario";
+                    conn.Open();
+                    using (SqlCommand command = new SqlCommand(query, conn))
+                    {
+                        command.Parameters.AddWithValue("idUsuario", idUsuario);
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                ProductoVendido productoVendido = new ProductoVendido();
+                                productoVendido.Id = Convert.ToInt32(reader["Id"]);
+                                productoVendido.Stock = Convert.ToInt32(reader["Stock"]);
+                                productoVendido.IdProducto = Convert.ToInt32(reader["IdProducto"]);
+                                productoVendido.IdVenta = Convert.ToInt32(reader["IdVenta"]);
+                                productosVendidos.Add(productoVendido);
+                            }
+                        }
+                    }
+                }
+                return productosVendidos;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+        }
     }
 }

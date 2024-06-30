@@ -87,7 +87,7 @@ namespace EcommerceWebApi.Controllers
             }
         }
 
-        [HttpGet("{idUsuario}", Name = "ObtenerVentaPorUsuario")]
+        [HttpGet("{idUsuario}", Name = "ObtenerVentasPorUsuario")]
         public ActionResult<List<Venta>> ObtenerVentasPorIdUsuario(int idUsuario)
         {
             if (idUsuario < 0)
