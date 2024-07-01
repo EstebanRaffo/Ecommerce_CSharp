@@ -27,7 +27,7 @@ namespace EcommerceWebApi.Controllers
         {
             if (idUsuario < 0)
             {
-                return base.BadRequest(new { message = "el id no puede ser negativo", status = HttpStatusCode.BadRequest });
+                return base.BadRequest(new { message = "El id no puede ser negativo", status = HttpStatusCode.BadRequest });
             }
             try
             {

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F19FBDB1-B943-458C-BC5B-C22E2EA97AAD}|..\\SistemaGestionData\\SistemaGestionData.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestiondata\\productovendidodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\productovendidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\productovendidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F808684F-37DD-4F28-8B22-E56D91BD3B2F}|..\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionbussiness\\productovendidobussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19FBDB1-B943-458C-BC5B-C22E2EA97AAD}|..\\SistemaGestionData\\SistemaGestionData.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestiondata\\ventadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F808684F-37DD-4F28-8B22-E56D91BD3B2F}|..\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestionbussiness\\ventabussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|c:\\users\\usuario\\documents\\coderhouse\\c#\\proyecto\\ecommerce_csharp\\sistemagestion\\ecommercewebapi\\controllers\\nombrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95420D3D-04C3-4A9E-A52D-D1265F86211A}|EcommerceWebApi\\EcommerceWebApi.csproj|solutionrelative:ecommercewebapi\\controllers\\nombrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,28 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VentaBussiness.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\VentaBussiness.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionBussiness\\VentaBussiness.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\VentaBussiness.cs",
-              "RelativeToolTip": "..\\SistemaGestionBussiness\\VentaBussiness.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCIAAAAcAAAA",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "EcommerceWebApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T18:59:21.908Z",
+              "WhenOpened": "2024-07-01T23:32:45.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VentaData.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\VentaData.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionData\\VentaData.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\VentaData.cs",
-              "RelativeToolTip": "..\\SistemaGestionData\\VentaData.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAAAKAAAAAiAAAA",
+              "DocumentIndex": 4,
+              "Title": "NombreController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\NombreController.cs",
+              "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\NombreController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\NombreController.cs",
+              "RelativeToolTip": "EcommerceWebApi\\Controllers\\NombreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T19:00:27.311Z",
+              "WhenOpened": "2024-07-01T23:23:03.718Z",
               "EditorCaption": ""
             },
             {
@@ -86,61 +82,36 @@
               "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\ProductoVendidoController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\ProductoVendidoController.cs",
               "RelativeToolTip": "EcommerceWebApi\\Controllers\\ProductoVendidoController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCEAAABgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T14:28:30.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoVendidoBussiness.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\ProductoVendidoBussiness.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionBussiness\\ProductoVendidoBussiness.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionBussiness\\ProductoVendidoBussiness.cs",
-              "RelativeToolTip": "..\\SistemaGestionBussiness\\ProductoVendidoBussiness.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA5wCEAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:01:29.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductoVendidoData.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\ProductoVendidoData.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionData\\ProductoVendidoData.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestionData\\ProductoVendidoData.cs",
-              "RelativeToolTip": "..\\SistemaGestionData\\ProductoVendidoData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKIAAACQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T15:03:33.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "VentaController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\VentaController.cs",
               "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\VentaController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\VentaController.cs",
               "RelativeToolTip": "EcommerceWebApi\\Controllers\\VentaController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFoAAABRAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T15:08:14.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "EcommerceWebApi\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\Coderhouse\\C#\\Proyecto\\Ecommerce_CSharp\\SistemaGestion\\EcommerceWebApi\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "EcommerceWebApi\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwB4AAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T23:20:35.327Z"
+              "WhenOpened": "2024-06-26T23:20:35.327Z",
+              "EditorCaption": ""
             }
           ]
         }
